@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+      <pattern>hello</pattern>
+      <template>
+          <random>
+              <li>Hi there! </li>
+              <li>Hey! </li>
+              <li>Hello! </li>
+          </random>
+          <srai>options</srai>
+      </template>
+  </category>
+  
+ 
+    <category>
+        <pattern>options</pattern>
+        <template>
+            What would you like to do?
+            <button>
+                <text>View Computer Science Careers</text>
+                <postback>cscareers</postback>
+            </button>
+            <button>
+                <text>Get career advice</text>
+                <postback>careeradvice</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>menu</pattern>
+        <template><srai>options</srai></template>
+    </category>
+</aiml>
