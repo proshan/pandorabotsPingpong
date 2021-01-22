@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>datascientist</pattern>
+        <template>Data science” may describe a diverse array of fields and positions,
+        but generally, data scientists work in teams or independently to analyze 
+        data and address targeted problems
+        <link>
+            <text>Learn more...</text>
+            <url>https://www.computerscience.org/careers/data-science/</url>
+        </link>
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>videogamedeveloper</pattern>
+        <template>Video game designers develop user-friendly games for computers, 
+        mobile devices, and websites by brainstorming game details, 
+        building code, and testing products for efficiency
+        <link>
+            <text>Learn more...</text>
+            <url>https://www.computerscience.org/careers/video-game-designer/</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>webdeveloper</pattern>
+        <template>Web development, on the other hand, deals with building
+        technical front-end and/or back-end code that informs site function.
+        <link>
+            <text>Learn more...</text>
+            <url>https://www.computerscience.org/careers/web-developer/</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>webdesigner</pattern>
+        <template>Website designers must ensure their sites are engaging.
+        Once they finish their creations, designers pass their ideas to web 
+        developers who bring the plans to life
+        <link>
+            <text>Learn more...</text>
+            <url>https://www.computerscience.org/careers/web-design/</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>networkadministrator</pattern>
+        <template>Network administrators design, manage, and maintain technological networks.
+        <link>
+            <text>Learn more...</text>
+            <url>https://www.computerscience.org/careers/network-administrator/</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>hardwareengineer</pattern>
+        <template>Computer hardware engineers design and supervise the manufacture and
+        installation of computer systems and related products.
+        <link>
+            <text>Learn more...</text>
+            <url>https://www.computerscience.org/careers/computer-hardware-engineer/</url>
+        </link>
+        </template>
+    </category>
+</aiml>
