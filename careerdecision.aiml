@@ -29,6 +29,66 @@
     </category>
     
     <category>
+        <pattern>goodatworkingwithdata</pattern>
+        <template>Data Scientist can be your best career choice.
+        <srai>datascientist</srai>
+        Enter 'advisor' to make an appointment with advisor for further career advice.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>notgoodatworkingwithdata</pattern>
+	    <template>Do you like to play games and have interest in learning how the characters in the game function and logic behind the gameplay?
+	        <button>
+	            <text>Yes</text>
+	            <postback>interestingames</postback>
+            </button>
+            <button>
+	            <text>No</text>
+	            <postback>nointerestingames</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>interestingames</pattern>
+        <template>video Game Development can be your best career choice.
+        <srai>videogamedeveloper</srai>
+        Enter 'advisor' to make an appointment with advisor for further career advice.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>nointerestingames</pattern>
+	    <template>Do you have interest in inner workings of a website?
+	        <button>
+	            <text>Yes</text>
+	            <postback>interestinwebsitedevelopment</postback>
+            </button>
+            <button>
+	            <text>No</text>
+	            <postback>nointerestinwebsitedevelopment</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>interestinwebsitedevelopment</pattern>
+        <template>Web Development can be your best career choice.
+        <srai>webdeveloper</srai>
+        Enter 'advisor' to make an appointment with advisor for further career advice.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>nointerestinwebsitedevelopment</pattern>
+        <template>Web Design can be your best career choice.
+        <srai>webdesigner</srai>
+        Enter 'advisor' to make an appointment with advisor for further career advice.
+        </template>
+    </category>
+    
+    <category>
 	    <pattern>nointerestinprogramming</pattern>
 	    <template>Are you interested in knowing how computers connect to each other to share devices and data?
 	        <button>
@@ -43,11 +103,35 @@
     </category>
     
     
+    <category>
+        <pattern>interestincomputernetworks</pattern>
+        <template>Network Administrator can be your best career choice.
+        <srai>networkadministrator</srai>
+        Enter 'advisor' to make an appointment with advisor for further career advice.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>nointerestincomputernetworks</pattern>
+        <template>Hardware Engineer can be your best career choice.
+        <srai>hardwareengineer</srai>
+        Enter 'advisor' to make an appointment with advisor for further career advice.
+        </template>
+    </category>
+    
     
     <category>
         <pattern>restartcareeradvice</pattern>
         <template>
             <srai>careeradvice</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>advisor</pattern>
+        <template>
+            Please call (XXX-XXX-XXXX) to make an appointment with a academic advisor. 
+            Enter 'menu' to go to main menu.
         </template>
     </category>
     
