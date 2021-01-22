@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>cscareers</pattern>
+	    <template>
+	        <button>
+	            <text>Data Scientist</text>
+	            <postback>datascientist</postback>
+	        </button>
+	        <button>
+	            <text>Video Game Developer</text>
+	            <postback>videogamedeveloper</postback>
+	        </button>
+	        <button>
+	            <text>Web Developer</text>
+	            <postback>webdeveloper</postback>
+	        </button>
+	        <button>
+	            <text>Web Designer</text>
+	            <postback>webdesigner</postback>
+	        </button>
+	        <button>
+	            <text>Network Administrator</text>
+	            <postback>networkadministrator</postback>
+	        </button>
+	        <button>
+	            <text>Hardware Engineer</text>
+	            <postback>hardwareengineer</postback>
+	        </button>
+	        Enter 'menu' to go to main menu.
+	    </template>
+    </category>
+</aiml>
