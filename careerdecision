@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>careeradvice</pattern>
+	    <template>Do you have interest in programming?
+	        <button>
+	            <text>Yes</text>
+	            <postback>interestinprogramming</postback>
+            </button>
+            <button>
+	            <text>No</text>
+	            <postback>nointerestinprogramming</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>interestinprogramming</pattern>
+	    <template>Are you good at working with data?
+	        <button>
+	            <text>Yes</text>
+	            <postback>goodatworkingwithdata</postback>
+            </button>
+            <button>
+	            <text>No</text>
+	            <postback>notgoodatworkingwithdata</postback>
+            </button>
+	    </template>
+    </category>
+    
+    <category>
+	    <pattern>nointerestinprogramming</pattern>
+	    <template>Are you interested in knowing how computers connect to each other to share devices and data?
+	        <button>
+	            <text>Yes</text>
+	            <postback>interestincomputernetworks</postback>
+            </button>
+            <button>
+	            <text>No</text>
+	            <postback>nointerestincomputernetworks</postback>
+            </button>
+	    </template>
+    </category>
+    
+    
+    
+    <category>
+        <pattern>restartcareeradvice</pattern>
+        <template>
+            <srai>careeradvice</srai>
+        </template>
+    </category>
+    
+   
+</aiml>
